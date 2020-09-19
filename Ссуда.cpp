@@ -32,7 +32,7 @@ int main()
     {
         while (Right)
         {
-            p++;
+            p += 0.01;
             z = (S * (p / 100.0) * pow(1 + (p / 100.0), n)) / (12 * (pow(1 + (p / 100.0),n) - 1)) ;
             z = round(z * 1000) / 1000;
             
@@ -48,7 +48,7 @@ int main()
     {
         while (Right)
         {
-            p--;
+            p -= 0.01;
             if (p == 0.0)
                 continue;
             z = (S * (p / 100.0) * pow(1 + (p / 100.0), n)) / (12 * (pow(1 + (p / 100.0),n) - 1)) ;
