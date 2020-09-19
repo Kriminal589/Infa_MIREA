@@ -9,6 +9,9 @@ int main()
     cout << "Write S, n, p" << endl;
     cin >> S >> n >> p;
     
+    if (p == 0.0)
+        return 0;
+    
     double r = p / 100.0;
     double k = r + 1;
     
