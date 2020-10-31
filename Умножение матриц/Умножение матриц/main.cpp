@@ -9,8 +9,8 @@ int main()
     double first_matrix[3][4];
     double second_matrix[4][2];
     double end_matrix[3][2];
-    ifstream price("/Users/user/Desktop/Информатика/Дз/Умножение матриц/second_matrix.txt");
-    ifstream number("/Users/user/Desktop/Информатика/Дз/Умножение матриц/first_matrix.txt");
+    ifstream price("/Users/user/Desktop/second_matrix.txt");
+    ifstream number("/Users/user/Desktop/first_matrix.txt");
     for (int i = 0; i < 3; i++){
         for (int j = 0; j < 4; j++){
             number >> first_matrix[i][j];
@@ -29,13 +29,14 @@ int main()
             }
         }
     }
-    
+  /*
     for (int i = 0; i < 4; i++){
         for (int j = 0; j < 2; j++){
-            cout <<fixed<<setprecision(2)<<second_matrix[i][j]<<"   ";
+            cout<<fixed<<setprecision(2)<<second_matrix[i][j]<<"   ";
         }
         cout<<endl;
     }
+   */
     for (int z = 0; z < 3; z++){
         for (int f = 0; f < 4; f++){
             double n = 0;
@@ -45,6 +46,17 @@ int main()
             end_matrix[z][f] = n;
         }
     }
+    
+    
+    for (int i = 0; i < 3; i++){
+        for (int j = 0; j < 2; j++){
+            cout<<fixed<<setprecision(2)<<end_matrix[i][j]<<"   ";
+        }
+        cout<<endl;
+    }
+    
+    
+    
     double sum1, sum2, sum3;
     sum1 = end_matrix[0][0] + end_matrix[0][1];
     sum2 = end_matrix[1][0] + end_matrix[1][1];
