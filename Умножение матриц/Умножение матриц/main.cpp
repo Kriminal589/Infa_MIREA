@@ -29,14 +29,7 @@ int main()
             }
         }
     }
-  /*
-    for (int i = 0; i < 4; i++){
-        for (int j = 0; j < 2; j++){
-            cout<<fixed<<setprecision(2)<<second_matrix[i][j]<<"   ";
-        }
-        cout<<endl;
-    }
-   */
+    
     for (int z = 0; z < 3; z++){
         for (int f = 0; f < 4; f++){
             double n = 0;
