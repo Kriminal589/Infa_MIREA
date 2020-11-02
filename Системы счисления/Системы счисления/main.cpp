@@ -2,6 +2,7 @@
 #include <math.h>
 #include <map>
 #include <ctype.h>
+#include <vector>
 using namespace std;
 int main(){
     
@@ -37,16 +38,14 @@ int main(){
             max = p;
         }
     }
+    
     if (max >= f_system){
         cout<<"Введено неверное число или начальная система счисления."<<endl;
         return EXIT_FAILURE;
     }
     
-    bool tochka = false;
     for (long int i = z; i >= 0; i--){
         p = alpha_0[number[i]];
-        if (p == -2)
-            tochka = true;
         n_10 += p * pow(f_system,abs(i-z));
     }
     
