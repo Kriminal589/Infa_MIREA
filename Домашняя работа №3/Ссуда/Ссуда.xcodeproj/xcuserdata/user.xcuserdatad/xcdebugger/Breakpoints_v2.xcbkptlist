@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C05C2A9F-244D-4656-A9D8-8E8CA5F98193"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "41FB2919-40B3-4F07-BCA2-85EC23831476"
+            shouldBeEnabled = "No"
+            nameForDebugger = "&#x412;&#x432;&#x43e;&#x434;"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x421;&#x441;&#x443;&#x434;&#x430;/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DBC26B23-915E-4471-9505-276524A6FF86"
+            shouldBeEnabled = "No"
+            nameForDebugger = "&#x417;&#x43d;&#x430;&#x447;&#x435;&#x43d;&#x438;&#x435;_z"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x421;&#x441;&#x443;&#x434;&#x430;/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
