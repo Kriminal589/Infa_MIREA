@@ -16,5 +16,4 @@ int main()
         a[j] = 0;
     }
   }
-  cin.get();
 }

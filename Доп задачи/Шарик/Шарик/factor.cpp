@@ -7,7 +7,13 @@ int factor(int x){
     return fact;
 }
 
-int rastonovka(int x, int y){
-    int sum = factor(y) / (factor(x) * factor(y - x));
+int rastonovka(int x){
+    int s = 1;
+    int sum = factor(x) / factor(x - s);
+    return sum;
+}
+
+int rectangle (int x, int y){
+    int sum = ((x + 1)*(y + 1)*x*y)/4;
     return sum;
 }

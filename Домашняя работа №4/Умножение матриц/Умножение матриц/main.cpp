@@ -29,6 +29,9 @@ int main()
             }
         }
     }
+    char k = 'a';
+    if (isalpha(k))
+        
     
     for (int z = 0; z < 3; z++){
         for (int f = 0; f < 4; f++){

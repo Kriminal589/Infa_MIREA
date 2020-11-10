@@ -7,13 +7,19 @@
 #include "nes_fun.cpp"
 using namespace std;
 int main(){
-    int x; int y;
+    int x;
     cout<<"Сколько шариков есть и сколько будут доставать?"<<endl;
-    cin >> x >> y;
-    int v = 0;
-    for (int i = 1; i <= x; i++){
-        v += rastonovka(i, y);
+    cin >> x;
+    int sum = 0; int f = x - 1;
+    for (int i = 1; i <= 1; i++){
+        if (i == 1)
+            sum += factor(f - i) * (x+1-i);
+        else{
+            
+        }
+        if (i == x-1)
+            sum++;
     }
-    cout << v <<endl;
+    cout << sum <<endl;
     return 0;
 }
