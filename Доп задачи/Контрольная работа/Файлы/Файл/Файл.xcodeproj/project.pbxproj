@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEB033AE255ADF6300225A1A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB033AD255ADF6300225A1A /* main.cpp */; };
+		CEB033C2255C0D7500225A1A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB033C1255C0D7500225A1A /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CEB033A8255ADF6300225A1A /* CopyFiles */ = {
+		CEB033BC255C0D7500225A1A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CEB033AA255ADF6300225A1A /* Файлы */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Файлы"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEB033AD255ADF6300225A1A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CEB033BE255C0D7500225A1A /* Файл */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Файл"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB033C1255C0D7500225A1A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CEB033A7255ADF6300225A1A /* Frameworks */ = {
+		CEB033BB255C0D7500225A1A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,64 +38,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CEB033A1255ADF6300225A1A = {
+		CEB033B5255C0D7500225A1A = {
 			isa = PBXGroup;
 			children = (
-				CEB033AC255ADF6300225A1A /* Файлы */,
-				CEB033AB255ADF6300225A1A /* Products */,
+				CEB033C0255C0D7500225A1A /* Файл */,
+				CEB033BF255C0D7500225A1A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CEB033AB255ADF6300225A1A /* Products */ = {
+		CEB033BF255C0D7500225A1A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEB033AA255ADF6300225A1A /* Файлы */,
+				CEB033BE255C0D7500225A1A /* Файл */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CEB033AC255ADF6300225A1A /* Файлы */ = {
+		CEB033C0255C0D7500225A1A /* Файл */ = {
 			isa = PBXGroup;
 			children = (
-				CEB033AD255ADF6300225A1A /* main.cpp */,
+				CEB033C1255C0D7500225A1A /* main.cpp */,
 			);
-			path = "Файлы";
+			path = "Файл";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CEB033A9255ADF6300225A1A /* Файлы */ = {
+		CEB033BD255C0D7500225A1A /* Файл */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEB033B1255ADF6300225A1A /* Build configuration list for PBXNativeTarget "Файлы" */;
+			buildConfigurationList = CEB033C5255C0D7500225A1A /* Build configuration list for PBXNativeTarget "Файл" */;
 			buildPhases = (
-				CEB033A6255ADF6300225A1A /* Sources */,
-				CEB033A7255ADF6300225A1A /* Frameworks */,
-				CEB033A8255ADF6300225A1A /* CopyFiles */,
+				CEB033BA255C0D7500225A1A /* Sources */,
+				CEB033BB255C0D7500225A1A /* Frameworks */,
+				CEB033BC255C0D7500225A1A /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Файлы";
-			productName = "Файлы";
-			productReference = CEB033AA255ADF6300225A1A /* Файлы */;
+			name = "Файл";
+			productName = "Файл";
+			productReference = CEB033BE255C0D7500225A1A /* Файл */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CEB033A2255ADF6300225A1A /* Project object */ = {
+		CEB033B6255C0D7500225A1A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
-					CEB033A9255ADF6300225A1A = {
+					CEB033BD255C0D7500225A1A = {
 						CreatedOnToolsVersion = 12.1;
 					};
 				};
 			};
-			buildConfigurationList = CEB033A5255ADF6300225A1A /* Build configuration list for PBXProject "Файлы" */;
+			buildConfigurationList = CEB033B9255C0D7500225A1A /* Build configuration list for PBXProject "Файл" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -103,29 +103,29 @@
 				en,
 				Base,
 			);
-			mainGroup = CEB033A1255ADF6300225A1A;
-			productRefGroup = CEB033AB255ADF6300225A1A /* Products */;
+			mainGroup = CEB033B5255C0D7500225A1A;
+			productRefGroup = CEB033BF255C0D7500225A1A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CEB033A9255ADF6300225A1A /* Файлы */,
+				CEB033BD255C0D7500225A1A /* Файл */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CEB033A6255ADF6300225A1A /* Sources */ = {
+		CEB033BA255C0D7500225A1A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEB033AE255ADF6300225A1A /* main.cpp in Sources */,
+				CEB033C2255C0D7500225A1A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CEB033AF255ADF6300225A1A /* Debug */ = {
+		CEB033C3255C0D7500225A1A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -184,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		CEB033B0255ADF6300225A1A /* Release */ = {
+		CEB033C4255C0D7500225A1A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,7 +236,7 @@
 			};
 			name = Release;
 		};
-		CEB033B2255ADF6300225A1A /* Debug */ = {
+		CEB033C6255C0D7500225A1A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -246,7 +246,7 @@
 			};
 			name = Debug;
 		};
-		CEB033B3255ADF6300225A1A /* Release */ = {
+		CEB033C7255C0D7500225A1A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -259,25 +259,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CEB033A5255ADF6300225A1A /* Build configuration list for PBXProject "Файлы" */ = {
+		CEB033B9255C0D7500225A1A /* Build configuration list for PBXProject "Файл" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEB033AF255ADF6300225A1A /* Debug */,
-				CEB033B0255ADF6300225A1A /* Release */,
+				CEB033C3255C0D7500225A1A /* Debug */,
+				CEB033C4255C0D7500225A1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEB033B1255ADF6300225A1A /* Build configuration list for PBXNativeTarget "Файлы" */ = {
+		CEB033C5255C0D7500225A1A /* Build configuration list for PBXNativeTarget "Файл" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEB033B2255ADF6300225A1A /* Debug */,
-				CEB033B3255ADF6300225A1A /* Release */,
+				CEB033C6255C0D7500225A1A /* Debug */,
+				CEB033C7255C0D7500225A1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CEB033A2255ADF6300225A1A /* Project object */;
+	rootObject = CEB033B6255C0D7500225A1A /* Project object */;
 }
