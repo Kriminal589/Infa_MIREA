@@ -144,16 +144,16 @@ void printArray(int arr[], int n)
    printf("\n");
 }
   
-// Программа-драйвер для тестирования Introsort
 int main()
 {
     int arr[] = {25, 15, 8, 27, 77, 53, 109, 404, 228};
     int n = sizeof(arr) / sizeof(arr[0]);
   
-    // Передайте массив, указатель на первый элемент и
-    // указатель на последний элемент
     Introsort(arr, arr, arr+n-1);
     printArray(arr, n);
   
     return(0);
 }
+
+
+

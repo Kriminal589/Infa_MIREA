@@ -12,7 +12,7 @@ int main(){
     
     string k; int count = 0;
 
-    ifstream file("/Users/user/Desktop/Информатика/lesson.txt");
+    ifstream file("/Users/AndreyNovikov/Desktop/Информатика/lesson.txt");
     
     //Нужно посчитать кол-во стран. Это будет размером нашего будущего массива.
     while (!file.eof()){
@@ -23,7 +23,7 @@ int main(){
     
     file.close();
     
-    ifstream co("/Users/user/Desktop/Информатика/lesson.txt");
+    ifstream co("/Users/AndreyNovikov/Desktop/Информатика/lesson.txt");
     
     string** country = new string* [count]; // динамический массив в который я перенесу все
     
@@ -82,8 +82,15 @@ int main(){
         }
     }
     
+    for (int i = 0; i < count; i++){
+        for (int j = 0; j < 5; j++){
+            cout << country[i][j] << " ";
+        }
+        cout << point[i] << endl;
+    }
+    
     // Запишем полученные массивы обратно в файл
-    ofstream c ("/Users/user/Desktop/Информатика/lesson.txt");
+    ofstream c ("/Users/AndreyNovikov/Desktop/Информатика/lesson.txt");
     for (int i = 0; i < count; i++){
         for (int j = 0; j < 5; j++){
             c << country[i][j] << ' ';

@@ -4,22 +4,39 @@
 */
 
 #include <iostream>
-#include "nes_fun.cpp"
 using namespace std;
-int main(){
-    int x;
-    cout<<"Сколько шариков есть и сколько будут доставать?"<<endl;
-    cin >> x;
-    int sum = 0; int f = x - 1;
-    for (int i = 1; i <= 1; i++){
-        if (i == 1)
-            sum += factor(f - i) * (x+1-i);
-        else{
-            
-        }
-        if (i == x-1)
-            sum++;
+ 
+unsigned factorial(unsigned n) {
+    return ((n > 1) ? n * factorial(n - 1) : n);
+}
+ 
+unsigned Count(bool select[], unsigned n, unsigned step = 0) {
+    unsigned count = 0;
+    if (step >= n) {
+        count = 1;
     }
-    cout << sum <<endl;
+    else {
+        for (unsigned i = 0; i < n; i++) {
+            if ((i != step) && !select[i]) {
+                select[i] = true;
+                count += Count(select, n, step + 1);
+                select[i] = false;
+            }
+        }
+    }
+ 
+    return count;
+}
+ 
+int main() {
+    int N; cout << "Write N: "; cin >> N;
+    bool select[N];
+ 
+    for (auto &f : select) {
+        f = false;
+    }
+ 
+    cout << factorial(N) - Count(select, N) << endl;
+ 
     return 0;
 }

@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEB033D6255C10FB00225A1A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB033D5255C10FB00225A1A /* main.cpp */; };
+		0C22417D25628C6100011D38 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C22417C25628C6100011D38 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CEB033D0255C10FB00225A1A /* CopyFiles */ = {
+		0C22417725628C6000011D38 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CEB033D2255C10FB00225A1A /* ads */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ads; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEB033D5255C10FB00225A1A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0C22417925628C6000011D38 /* Лео */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Лео"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C22417C25628C6100011D38 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CEB033CF255C10FB00225A1A /* Frameworks */ = {
+		0C22417625628C6000011D38 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,64 +38,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CEB033C9255C10FB00225A1A = {
+		0C22417025628C6000011D38 = {
 			isa = PBXGroup;
 			children = (
-				CEB033D4255C10FB00225A1A /* ads */,
-				CEB033D3255C10FB00225A1A /* Products */,
+				0C22417B25628C6000011D38 /* Лео */,
+				0C22417A25628C6000011D38 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CEB033D3255C10FB00225A1A /* Products */ = {
+		0C22417A25628C6000011D38 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEB033D2255C10FB00225A1A /* ads */,
+				0C22417925628C6000011D38 /* Лео */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CEB033D4255C10FB00225A1A /* ads */ = {
+		0C22417B25628C6000011D38 /* Лео */ = {
 			isa = PBXGroup;
 			children = (
-				CEB033D5255C10FB00225A1A /* main.cpp */,
+				0C22417C25628C6100011D38 /* main.cpp */,
 			);
-			path = ads;
+			path = "Лео";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CEB033D1255C10FB00225A1A /* ads */ = {
+		0C22417825628C6000011D38 /* Лео */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEB033D9255C10FB00225A1A /* Build configuration list for PBXNativeTarget "ads" */;
+			buildConfigurationList = 0C22418025628C6100011D38 /* Build configuration list for PBXNativeTarget "Лео" */;
 			buildPhases = (
-				CEB033CE255C10FB00225A1A /* Sources */,
-				CEB033CF255C10FB00225A1A /* Frameworks */,
-				CEB033D0255C10FB00225A1A /* CopyFiles */,
+				0C22417525628C6000011D38 /* Sources */,
+				0C22417625628C6000011D38 /* Frameworks */,
+				0C22417725628C6000011D38 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ads;
-			productName = ads;
-			productReference = CEB033D2255C10FB00225A1A /* ads */;
+			name = "Лео";
+			productName = "Лео";
+			productReference = 0C22417925628C6000011D38 /* Лео */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CEB033CA255C10FB00225A1A /* Project object */ = {
+		0C22417125628C6000011D38 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1210;
+				LastUpgradeCheck = 1220;
 				TargetAttributes = {
-					CEB033D1255C10FB00225A1A = {
-						CreatedOnToolsVersion = 12.1;
+					0C22417825628C6000011D38 = {
+						CreatedOnToolsVersion = 12.2;
 					};
 				};
 			};
-			buildConfigurationList = CEB033CD255C10FB00225A1A /* Build configuration list for PBXProject "ads" */;
+			buildConfigurationList = 0C22417425628C6000011D38 /* Build configuration list for PBXProject "Лео" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -103,29 +103,29 @@
 				en,
 				Base,
 			);
-			mainGroup = CEB033C9255C10FB00225A1A;
-			productRefGroup = CEB033D3255C10FB00225A1A /* Products */;
+			mainGroup = 0C22417025628C6000011D38;
+			productRefGroup = 0C22417A25628C6000011D38 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CEB033D1255C10FB00225A1A /* ads */,
+				0C22417825628C6000011D38 /* Лео */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CEB033CE255C10FB00225A1A /* Sources */ = {
+		0C22417525628C6000011D38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEB033D6255C10FB00225A1A /* main.cpp in Sources */,
+				0C22417D25628C6100011D38 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CEB033D7255C10FB00225A1A /* Debug */ = {
+		0C22417E25628C6100011D38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -176,7 +176,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -184,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		CEB033D8255C10FB00225A1A /* Release */ = {
+		0C22417F25628C6100011D38 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -229,14 +229,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		CEB033DA255C10FB00225A1A /* Debug */ = {
+		0C22418125628C6100011D38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -246,7 +246,7 @@
 			};
 			name = Debug;
 		};
-		CEB033DB255C10FB00225A1A /* Release */ = {
+		0C22418225628C6100011D38 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -259,25 +259,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CEB033CD255C10FB00225A1A /* Build configuration list for PBXProject "ads" */ = {
+		0C22417425628C6000011D38 /* Build configuration list for PBXProject "Лео" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEB033D7255C10FB00225A1A /* Debug */,
-				CEB033D8255C10FB00225A1A /* Release */,
+				0C22417E25628C6100011D38 /* Debug */,
+				0C22417F25628C6100011D38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEB033D9255C10FB00225A1A /* Build configuration list for PBXNativeTarget "ads" */ = {
+		0C22418025628C6100011D38 /* Build configuration list for PBXNativeTarget "Лео" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEB033DA255C10FB00225A1A /* Debug */,
-				CEB033DB255C10FB00225A1A /* Release */,
+				0C22418125628C6100011D38 /* Debug */,
+				0C22418225628C6100011D38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CEB033CA255C10FB00225A1A /* Project object */;
+	rootObject = 0C22417125628C6000011D38 /* Project object */;
 }
