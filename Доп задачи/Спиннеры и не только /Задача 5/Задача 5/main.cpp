@@ -8,7 +8,7 @@ int main(){
         cout << "Слишком мало мест."<<endl;
         return EXIT_FAILURE;
     }
-    int* a = new int[12];
+    int* a = new int[N];
     
     for (int i = 0; i < N+2; i++){
         if ((i == 0) || (i == N+1))

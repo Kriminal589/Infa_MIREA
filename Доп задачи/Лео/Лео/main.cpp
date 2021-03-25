@@ -1,32 +1,37 @@
+// ConsoleApplication3.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 #include <iostream>
 #include <fstream>
 #include <list>
+
 using namespace std;
-int main(){
-    list<char> a;
-    ifstream file("/Users/AndreyNovikov/Desktop/Информатика/lesson.txt");
-    char k;
-    while(!file.eof()){
-        file>>k;
-        a.push_back(k);
+
+//Задача копирование файла
+int main()
+{
+    int blya;
+    list <int> massiv_a;
+    list <int> :: iterator hui;
+    string stroka;
+    ifstream a ("/Users/AndreyNovikov/Desktop/Информатика/first_matrix.txt");
+    while (!a.eof())
+    {
+        a >> blya;
+        massiv_a.push_back(blya);
     }
-    file.close();
-    list <char> :: iterator i;
-    list <char> :: iterator j;
-    
-    
-    for (i = a.begin(); i != a.end(); i++){
-        for (j = a.begin(); j != a.end(); j++){
-            if (*j > *i){
-                swap(*j,*i);
-            }
-        }
+    a.close();
+    ifstream b ("/Users/AndreyNovikov/Desktop/Информатика/second_matrix.txt");
+    while (!b.eof())
+    {
+        b >> blya;
+        massiv_a.push_back(blya);
     }
-    
-    a.unique();
-    
-    for (i = a.begin(); i != a.end(); i++){
-        cout << (*i) << " ";
+    b.close();
+    massiv_a.sort();
+    ofstream c ("/Users/AndreyNovikov/Desktop/Информатика/lesson.txt");
+    for (hui=massiv_a.begin();hui!=massiv_a.end();hui++)
+    {
+         c <<*hui<<" ";
     }
-    cout << endl;
+    c.close();
+    return 0;
 }

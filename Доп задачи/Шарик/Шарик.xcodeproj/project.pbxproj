@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CE7CD15725507C7A00B4A00D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE7CD15625507C7A00B4A00D /* main.cpp */; };
-		CE7CD16A2550850500B4A00D /* factor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE7CD1692550850500B4A00D /* factor.cpp */; };
-		CE7CD16D2550850800B4A00D /* nes_fun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE7CD16C2550850800B4A00D /* nes_fun.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,8 +25,6 @@
 /* Begin PBXFileReference section */
 		CE7CD15325507C7A00B4A00D /* Шарик */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Шарик"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7CD15625507C7A00B4A00D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		CE7CD1692550850500B4A00D /* factor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = factor.cpp; path = "/Users/user/Desktop/Информатика/Дз/Infa_MIREA/Доп задачи/Шарик/Шарик/factor.cpp"; sourceTree = "<absolute>"; };
-		CE7CD16C2550850800B4A00D /* nes_fun.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = nes_fun.cpp; path = "/Users/user/Desktop/Информатика/Дз/Infa_MIREA/Доп задачи/Шарик/Шарик/nes_fun.cpp"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +57,6 @@
 		CE7CD15525507C7A00B4A00D /* Шарик */ = {
 			isa = PBXGroup;
 			children = (
-				CE7CD1692550850500B4A00D /* factor.cpp */,
-				CE7CD16C2550850800B4A00D /* nes_fun.cpp */,
 				CE7CD15625507C7A00B4A00D /* main.cpp */,
 			);
 			path = "Шарик";
@@ -124,9 +118,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE7CD16A2550850500B4A00D /* factor.cpp in Sources */,
 				CE7CD15725507C7A00B4A00D /* main.cpp in Sources */,
-				CE7CD16D2550850800B4A00D /* nes_fun.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

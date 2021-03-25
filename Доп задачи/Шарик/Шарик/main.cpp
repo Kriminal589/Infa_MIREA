@@ -27,6 +27,7 @@ unsigned Count(bool select[], unsigned n, unsigned step = 0) {
  
     return count;
 }
+
  
 int main() {
     int N; cout << "Write N: "; cin >> N;
