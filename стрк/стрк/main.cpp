@@ -95,10 +95,6 @@ int main(int argc, const char * argv[]) {
     new_list(L);
     cout<<endl;
     out_list(L);
-    int n; cout << "С какого элемента перемещаем список? ";
-    cin >> n;
-    remove_list(L, n);
-    out_list(L);
     add(L);
     out_list(L);
     return 0;
