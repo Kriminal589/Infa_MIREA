@@ -1,40 +1,66 @@
 #include "basic_file.hpp"
-#include <iostream>
-using namespace std;
 
-basic_class::basic_class(basic_class* parent, string name){
-    set_new_name(name);
-    this->parent = parent;
-    if (parent != 0)
-        this->parent->children.push_back(this);
+BasicClass::BasicClass(BasicClass* parent, string name){
+    NewHead(parent);
+    SetterName(name);
 }
 
-basic_class::basic_class(basic_class* parent){
+BasicClass::BasicClass(BasicClass* parent){
     this->parent = parent;
 }
 
-void basic_class::set_new_name(string name){
+void BasicClass::SetterName(string name){
     this->name = name;
 }
 
-string basic_class::get_name()
-{
-    return name;
+string BasicClass::GetterName(){
+    return this->name;
 }
 
-void basic_class::show_tree()
-{
-    cout << this->get_name();
-    for (int i = 0; i < this->children.size(); i++) {
-        cout << " " << this->children[i]->get_name();
+void BasicClass::NewHead(BasicClass* parent){
+    this->parent = parent;
+    if (parent){
+        parent->children.push_back(this);
     }
-    for (int i = 0; i < this->children.size(); i++) {
-        if (this->children[i]->children.size() != 0) {
-            cout << endl;
-            children[i]->show_tree();
+}
+
+void BasicClass::showtree(){
+    if (children.empty())
+        return;
+    cout << endl << name;
+    t = children.begin();
+    while (t != children.end()){
+        cout << " " << (*t)->GetterName();
+        t++;
+    }
+    t--;
+    (*t)->showtree();
+}
+
+Class1::Class1(BasicClass* parent) : BasicClass(parent){
+}
+
+void Class1::buildtree(){
+    string parent_name, child_name;
+    cin >> parent_name;
+    SetterName(parent_name);
+    temp_parent = this;
+    do{
+        cin >> parent_name >> child_name;
+        if (parent_name == child_name)
+            return;
+        if (parent_name != temp_parent->GetterName()){
+            if (parent_name == temp_child->GetterName()){
+                temp_parent = temp_child;
+            } else continue;
         }
-    }
+        temp_child = new BasicClass(temp_parent, child_name);
+    }while (true);
 }
 
-
+int Class1::start(){
+    cout << GetterName();
+    showtree();
+    return 0;
+}
 

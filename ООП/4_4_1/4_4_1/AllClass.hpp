@@ -26,6 +26,7 @@
 
 #include <stdio.h>
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 class BasicClass{
@@ -34,8 +35,7 @@ protected:
     int size;
     int differ, sum;
 public:
-    virtual int func() = 0;
-    virtual void in_out() = 0;
+    virtual void in_out();
 };
 
 class Class1:public BasicClass{
@@ -45,12 +45,14 @@ public:
 
 class Class2:public Class1{
 public:
-    virtual int func();
+    int func();
 };
 
 class Class3:public Class2{
 public:
-    virtual void in_out();
+    void in_out();
 };
+
+
 
 #endif

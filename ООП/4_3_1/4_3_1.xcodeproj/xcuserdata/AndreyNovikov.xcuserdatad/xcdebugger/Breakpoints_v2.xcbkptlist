@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bucket
-   uuid = "C49745C6-0ADE-47D7-B9A6-794B20E9C5F1"
+   uuid = "48242687-330A-47B2-B1F4-14382CF66C40"
    type = "1"
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "48C39A1D-CD8B-4A76-AD05-4FB377B3364D"
+            uuid = "B482AD95-DBB0-41AF-81D2-8B9EAF973C17"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "&#x441;&#x442;&#x440;&#x43a;2/main.cpp"
+            filePath = "4_3_1/AllClass.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
-            landmarkName = "new_list(L)"
-            landmarkType = "9">
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "Class1::in_out()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "DF99D2DC-2751-41A3-A5B5-D2A632BE7B9E"
+            uuid = "75FE5E21-9441-4EA4-B8AF-B622812EBF08"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "&#x441;&#x442;&#x440;&#x43a;2/main.cpp"
+            filePath = "4_3_1/AllClass.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "127"
-            endingLineNumber = "127"
-            landmarkName = "outList(L)"
-            landmarkType = "9">
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "Class2::in_out()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A8F1DB77-308D-4F08-881B-3A075E67EC14"
+            uuid = "70E04745-FD44-4E12-8C5C-243D90B9D855"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "&#x441;&#x442;&#x440;&#x43a;2/main.cpp"
+            filePath = "4_3_1/AllClass.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "162"
-            endingLineNumber = "162"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "Class2::sort()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05E6A2FB-C2EA-40A6-8A36-7A0645D8A565"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "4_3_1/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
             landmarkName = "main()"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "103B730F-A4F9-4C48-A4F6-BAEFDB1374DC"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x441;&#x442;&#x440;&#x43a;2/main.cpp"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
-            landmarkName = "DeleteNode(L)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>

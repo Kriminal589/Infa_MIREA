@@ -1,33 +1,36 @@
 
-#ifndef basic_file_hpp
-#define basic_file_hpp
+#ifndef BASIC_FILE_HPP
+#define BASIC_FILE_HPP
 
 #include <iostream>
 #include <string>
 #include <vector>
 using namespace std;
 
-class basic_class
-{
+class BasicClass{
 private:
     string name;
-    basic_class* parent;
+    BasicClass* parent;
 public:
-    basic_class(basic_class* parent, string name);
-    basic_class(basic_class* parent);
-    void set_new_name(string name);
-    string get_name();
-    void show_tree();
-    vector <basic_class*> children;
-    
+    vector <BasicClass* > children;
+    vector <BasicClass* >::iterator t;
+    BasicClass (BasicClass* parent, string name);
+    BasicClass(BasicClass* parent);
+    string GetterName();
+    void SetterName(string name);
+    void showtree();
+    void NewHead(BasicClass* parent);
+    BasicClass* HeadParent();
 };
 
-class basic_class1: public basic_class{
+class Class1:public BasicClass{
+private:
+    BasicClass* temp_parent;
+    BasicClass* temp_child;
 public:
-    using basic_class::basic_class;
+    Class1(BasicClass* parent = 0);
+    void buildtree();
+    int start();
 };
-class basic_class2: public basic_class{
-public:
-    using basic_class::basic_class;
-};
-#endif 
+
+#endif

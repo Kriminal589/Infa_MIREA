@@ -69,7 +69,7 @@ int Class2::func(){
 void Class3::in_out(){
     cout<<"РАЗМЕР: " << size << endl;
     for (int i = 0; i < size; i++){
-        cout<<array[i]<<" ";
+        cout<<setw(5)<<array[i];
     }
     cout<<endl;
     cout<<"Разность: "<<Class1::func()<<endl;
