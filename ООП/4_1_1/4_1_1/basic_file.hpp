@@ -32,5 +32,9 @@ public:
     void buildtree();
     int start();
 };
+class Class2:public BasicClass{
+public:
+    Class2(BasicClass* parent, string name);
+};
 
 #endif

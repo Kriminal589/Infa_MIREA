@@ -54,7 +54,7 @@ void Class1::buildtree(){
                 temp_parent = temp_child;
             } else continue;
         }
-        temp_child = new BasicClass(temp_parent, child_name);
+        temp_child = new Class2(temp_parent, child_name);
     }while (true);
 }
 
@@ -64,3 +64,4 @@ int Class1::start(){
     return 0;
 }
 
+Class2::Class2(BasicClass* parent, string name):BasicClass(parent, name){}
